@@ -1,5 +1,5 @@
 ---
-title: "Science Gateways Tutorial Flask App"
-description: |
-  This app is a demo app for phusion passenger in ood that uses flask to demonstate 
-  running a science gateway in ood.
+description: "This app is a demo app for phusion passenger in ood that uses flask
+  to demonstate \r\nrunning a science gateway in ood."
+name: Sci Gateway App
+icon: fas://torii-gate
