@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <title>Weather App</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/custom.css" rel="stylesheet">
 </head>
-<body>
-    <div class="container mt-5">
+<body class="container dark-mode">
+    {% include '_navbar.html' %}
+    
+    <div class="container mt-5 bg-light">
         <h1>Weather Data App for PNW</h1>
         <a href="{{ url_for('seattle_weather') }}" class="btn btn-primary">See Seattle Weather</a>
     </div>
+    {% include '_scripts.html' %}
 </body>
+{% include '_dark_mode_button.html' %}
 </html>

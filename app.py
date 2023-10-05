@@ -18,5 +18,9 @@ def seattle_weather():
 	else:
 		return 'Failed to get weather data', 400
 
+@MyApp.route("/about")
+def about():
+	return render_template('about.html')
+
 if __name__ == "__main__":
 	MyApp.run()

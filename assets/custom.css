@@ -1,0 +1,4 @@
+body.dark-mode {
+  background-color: #333;  /* not pure black */
+  color: #ccc;  /* not pure white */
+}
